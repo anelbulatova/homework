@@ -1,0 +1,96 @@
+.message {
+    width: 527px;
+    min-height: 60px;
+    height: max-content;
+    margin-right: 7px;
+    padding: 7px 10px;
+}
+
+.imageAndText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.imageAndText img {
+    height: 48px;
+    width: 48px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-items: right;
+    justify-content: space-evenly;
+    text-align: right;
+    font-family: 'Montserrat';
+
+
+    width: 527px;
+    min-height: 60px;
+    height: max-content;
+    margin-right: 7px;
+    padding: 7px 10px;
+
+    background-color: #0066cc;
+    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
+    border-radius: 5px;
+    overflow-wrap: break-word;
+}
+
+.text:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 1000px;
+    top: 50px;
+    border: 10px solid;
+    border-color: transparent #0066cc #0066cc transparent;
+    rotate: 225deg;
+}
+
+.name {
+    margin: 0;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.messageText {
+    white-space: pre-wrap;
+    overflow: auto;
+    display: flex;
+    justify-content: flex-end;
+
+    max-width: 490px;
+    min-height: 20px;
+    height: max-content;
+    word-break: break-all;
+    white-space: pre-wrap;
+    overflow: auto;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: right;
+    margin: 0;
+}
+
+.time {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+
+}
