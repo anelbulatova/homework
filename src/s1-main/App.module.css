@@ -1,28 +1,33 @@
-.App {
-    header_height: 60px;
-    font-family: 'Montserrat';
-    Font-size: Montserrat;
-    Weight:600;
-    Size:22px;
-    Line-height: 26.82px;
+App {
+    --header_height: 60px;
+    box-sizing: border-box;
 }
 
 .hw {
+    padding: 20px;
+    position: relative;
+}
+
+.hw:after {
     position: absolute;
-    width: 489px;
-    height: 20px;
-    left: 648px;
-    top: 224px;
+    content: '';
+    border-bottom: 1px solid black;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 .hwTitle {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
+    font-size: 20px;
+    position: relative;
+    padding: 5px;
+}
+
+.hwTitle:after {
     position: absolute;
-    width: 165px;
-    height: 27px;
-    left: 70px;
-    top: 131px;
+    content: '';
+    border-bottom: 1px solid black;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
