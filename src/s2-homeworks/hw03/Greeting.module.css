@@ -1,10 +1,15 @@
 .greetingForm {
+
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
 }
 
 .error {
+ color:  red
 }
 
 .input {
@@ -17,18 +22,34 @@
 }
 
 .button {
+    width: 80px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 44px;
+    background-color: #0066CC;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+
 }
 
 .button:focus {
 }
 
 .button:active {
+    background: var(--color);
+    color: white;
 }
 
 .button:disabled {
 }
 
 .text {
+    --color: #06c;
 }
 
 .greeting {
