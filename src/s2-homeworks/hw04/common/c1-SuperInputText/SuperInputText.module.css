@@ -2,6 +2,7 @@
 }
 
 .input {
+
 }
 
 .inputWrapper {
@@ -11,10 +12,14 @@
 }
 
 .errorInput {
+    border: red 1px solid;
 }
 
 .errorInput:focus {
+
 }
 
+
 .error {
+    color: red
 }
